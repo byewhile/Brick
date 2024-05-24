@@ -1,0 +1,121 @@
+#projects h2, #about_company h2 {
+    font-size: 2.5rem;
+}
+
+#apps {
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    gap: 2vw;
+}
+
+.info {
+    position: absolute;
+    background-color: white;
+    padding: 0.5% 0.75%;
+    margin: 1%;
+    border-radius: 32px;
+    font-size: 0.9rem;
+}
+
+#apps a {
+    color: black;
+}
+
+#apps img {
+    height: 500px;
+    width: 400px;
+    border-radius: 32px;
+}
+
+#apps h3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1vh;
+    font-size: 1.25rem;
+}
+
+#apps h3 span:nth-child(2) {
+    color: #8c94a8;
+}
+
+#apps p {
+    color: #8c94a8;
+    padding-top: 1.5%;
+}
+
+#about_company {
+    margin-top: 9%;
+    padding-bottom: 5%;
+    
+}
+
+#about_company p {
+    color: #8c94a8;
+    font-size: 1.25rem;
+    padding-top: 1%;
+    line-height: 3vh;
+}
+
+#about_company_progress {
+    margin-top: 3%;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3.5vh;
+}
+
+#about_company_progress h4 {
+    font-size: 1.45rem;
+}
+
+#about_company_progress>P {
+    padding-top: 3vh;
+    width: 80vw;
+}
+
+#about_company_progress div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20vw;
+    height: 20vh;
+    background-color: white;
+    padding: 2%;
+    border-radius: 32px;
+}
+
+#about_company_progress div img {
+    height: 64px;
+}
+
+footer {
+    background-color: white;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    padding: 1.5%;
+    height: 15vh;
+}
+
+footer h5 {
+    width: 100%;
+    font-size: 1.75rem;
+}
+
+footer ul {
+    margin-top: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+footer  a {
+    color: #8c94a8;
+    margin: 0 1vw;
+    font-size: 1.25rem;
+}
+
+footer a:hover, footer a:focus {
+    color: black;
+}

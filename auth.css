@@ -1,0 +1,68 @@
+main h2 {
+    font-size: 2.5rem;
+    padding-bottom: 2vh;
+}
+
+main p {
+    color: #8c94a8;
+    font-size: 1.25rem;
+}
+
+form {
+    margin-top: 6vh;
+    color: #8c94a8;
+    width: 25vw;
+}
+
+form div {
+    font-size: 1rem;
+    margin-top: 1vh;
+}
+
+form input[type="text"] {
+    outline: none;
+}
+
+form input[type="text"], form input[type="submit"] {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 3%;
+    margin-top: 0.5vh;
+    border-radius: 32px;
+    border: 0;
+    background-color: white;
+    color: #8c94a8;
+    transition: 0.3s ease all;
+}
+
+form input[type="text"]::placeholder {
+    font-size: 1.5rem;
+    color: #8c94a8;
+}
+
+form input[type="submit"] {
+    cursor: pointer;
+    margin-top: 1vh;
+}
+
+#available {
+    background-color: #ff2121;
+    color: white;
+}
+
+form input[type="submit"]:disabled {
+    cursor: auto;
+}
+
+form input[type="text"]:hover, form input[type="text"]:focus  {
+    border-radius: 16px;
+}
+
+form div:last-child {
+    text-align: center;
+}
+
+#error {
+    color: #ff2121;
+    text-align: center;
+}

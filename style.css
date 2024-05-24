@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Ubuntu Sans", sans-serif;
+    background-color: #f4f6fb;
+}
+
+header {
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    background-color: white;
+    padding: 1.5%;
+    height: 12vh;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #ff2121;
+    font-weight: 800;
+    font-size: 2.5rem;
+    background-color: transparent;
+    padding: 0;
+}
+
+header h1 a {
+    color: #ff2121;
+}
+
+header a[href*="auth.php"], header a[href="logout.php"] {
+    color: #ff2121;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 4% 5%;
+    border-radius: 32px;
+    background-color: #f4f6fb;
+    transition: 0.3s ease all;
+}
+
+header a[href*="tel"] {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: 0.3s ease all;
+}
+
+header a[href*="tel"]:hover, header a[href*="tel"]:focus {
+    color: #ff2121;
+}
+
+header a:hover, header a:focus {
+    border-radius: 16px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+}
+
+main {
+    margin-top: 2%;
+    margin-left: 5%;
+}
